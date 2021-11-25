@@ -238,6 +238,8 @@ img{
   text-align: center;
   margin-top: 0 auto;
   margin-bottom: 0 auto;
+  position: absolute;
+  bottom: 15px;
 }
 
 
