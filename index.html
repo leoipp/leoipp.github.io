@@ -164,15 +164,14 @@
                 <h2 class="section-title">Contato</h2>   
                 <div class="contact__container bd-grid">
                     <form action="https://formspree.io/f/xbjwdvqj" method="POST" class="contact__form">
-                        <input type="text" placeholder="Nome" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="submit" value="Enviar" class="contact__button button">
+                        <input type="text" placeholder="Nome" class="contact__input" required>
+                        <input type="email" name='_replyto' placeholder="Email" class="contact__input" required>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <button type="submit" value="Enviar" class="contact__button button">Enviar</button>
                     </form>
                 </div>
             </section>
         </main>
-    
 
         <!--===== FOOTER =====-->
         <footer class="footer">
